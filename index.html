@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FHS Girls Who Code</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+ 
+  <body onload="showSlide(1);">
+    <header>
+      <nav>
+        <a href="index.html" id="logo"><img src="assets/gw.png"width="120" height="65" ></a>
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+          
+          <li>
+          <div class="dropdown"><button class="dropbtn">About</button>
+            <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="about.html">About us</a>
+    <a href="prog.html">S.T.E.A.M</a>
+    <a href="prog.html">Women in Science</a>
+  </div></div>
+          </li>
+          <li>
+            <div class="dropdown"><button class="dropbtn">Ideas</button>
+            <div class="dropdown-content">
+    <a href="prog.html">Project Gallery</a>
+  </div></div>
+          </li>
+          <li>
+            <div class="dropdown"><button class="dropbtn">Resources</button>
+            <div class="dropdown-content">
+    <a href="prog.html">Information</a>
+  </div></div>
+          </li>
+          <li>
+             <div id="gwc"><button class="dropbtn" 
+            onclick= " window.open('https://girlswhocode.com/','_blank')"> Girls Who Code</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Script -->
+    <script src="script.js"></script>
+
+  <!-- Slideshow container -->
+< <!-- Slideshow container -->
+    <div class="slideshow-container">
+       
+        
+      <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" >
+            <div class="numbertext"></div>
+            <img src="assets/l.jpeg">
+            <center><div class="text"><h1>Girls Who Code</h1><p>Girls Who Code is an orginization that supports and helps women explore computer science. They are working to close the gender gap in technology and inspire young women.</p></div></center>
+<!--             <div class="text2">Girls Who Code</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="assets/l2.jpeg">
+            <center><div class="text"><h1>Computer Science</h1><p>Computer Science is the study of numerous processes of data that interact with multiple sources and as a result is represented in software programs. There are many jobs that fall under this but each of them are unique.</p></div></center>
+<!--             <div class="text2">Girls Who Code</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="assets/l3.jpg">
+            <center><div class="text"><h1>S.T.E.A.M.</h1><p>S.T.E.A.M. is known as science, technology, engineering, arts, and mathematics. I believe art is a fundamental piece in every single job aspect including the sciences. Art is essential in accesing creative solutions and generating explosive ideas. </p></div></center>
+<!--             <div class="text2">Girls Who Code</div> -->
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="assets/l4.jpg">
+            <center><div class="text"><h1>Women in S.T.E.A.M.</h1><p>Being a women in S.T.E.A.M. is a struggle with problems like pay, and representation. In history we often hear the same names most of them being men. This does not reflect what women have done and are capable of, and reflects the big issue. Although these issues have gotten better they're no where near solved, and takes brave women to break the mold and change them.</p></div></center>
+<!--             <div class="text2">Girls Who Code</div> -->
+        </div>
+        <!-- Next and previous buttons -->
+<!--         <a class="prev" onclick="showSlide(--slideIndex);">&#10094;</a>
+<!--         <a class="next" onclick="showSlide(++slideIndex);">&#10095;</a> --> 
+<!--       <div class="dots-container">
+          <span class="dot" onclick="showSlide(slideIndex = 0)"></span> 
+          <span class="dot" onclick="showSlide(slideIndex = 1)"></span> 
+          <span class="dot" onclick="showSlide(slideIndex = 2)"></span> 
+          <span class="dot" onclick="showSlide(slideIndex = 3)"></span> 
+       </div>  -->
+    </div>
+    <br>
+
+<!--     The dots/circles  -->
+     <div class="dots-container">
+        <span class="dot" onclick="showSlide(slideIndex = 0)"></span> 
+        <span class="dot" onclick="showSlide(slideIndex = 1)"></span> 
+        <span class="dot" onclick="showSlide(slideIndex = 2)"></span> 
+        <span class="dot" onclick="showSlide(slideIndex = 3)"></span> 
+    </div>
+  <div class="scroll-bg">
+  <h5>We are a Girls Who Code club and support Women in S.T.E.A.M.. We hope to provide some ideas to try out for yourself through our project gallery. We also provide information in Women in S.T.E.A.M., and the meaning of them both. Thank you for visiting our Website I hope you have fun exploring!</h5>
+  </div>
+    <div class="fixed-bg bg-1">     FHS      </div>
+    <div style="height: 300px;" class="scroll-bg">
+    <h4> S.T.E.A.M.- I strongly believe in art as a essential skill in all jobs, and when I first heard of this I felt included.</h4>
+<div style="height: 100px;" class="bottom">
+    
+    </div>
+ </div>
+  </body>
+</html>
